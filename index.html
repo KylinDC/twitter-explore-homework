@@ -1,20 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-Hans">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Title</title>
-</head>
-<body>
-<header class="header">
-  <h1>Twitter</h1>
-  <div>
-    <button>登陆</button>
-    <button>注册</button>
-  </div>
-</header>
-<script src="src/app.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Title</title>
+    </head>
+    <body>
+        <header class="header">
+            <h1>Twitter</h1>
+            <div>
+                <button>登陆</button>
+                <button>注册</button>
+            </div>
+        </header>
+        <div class="content">
+            <section class="login">
+                <h1>查看世界上正在发生的事情</h1>
+                <form>
+                    <label class="input"
+                        >电话、邮箱地址或用户名
+                        <input placeholder="" type="text" />
+                    </label>
+                    <br />
+                    <label class="input"
+                        >密码
+                        <input placeholder="" type="text" />
+                    </label>
+                    <p><a>忘记密码？</a></p>
+                    <button>登陆</button>
+                </form>
+                <p>或</p>
+                <button>注册</button>
+            </section>
+        </div>
+        <script src="src/app.js"></script>
+    </body>
 </html>

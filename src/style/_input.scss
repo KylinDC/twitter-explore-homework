@@ -1,0 +1,17 @@
+.input {
+  label {
+    display: block;
+  }
+
+  input {
+    background-color: $body-bg;
+    border: none;
+    border-bottom: solid 2px gray;
+    display: block;
+    width: 100%;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

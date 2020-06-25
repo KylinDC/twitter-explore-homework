@@ -1,0 +1,35 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px);
+
+  .login {
+    padding: 30px 20px;
+    border: 1px solid grey;
+    border-radius: $border-radius-base;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      text-align: center;
+    }
+
+    button {
+      width: 100%;
+      border-radius: 15px;
+      height: 30px;
+      border: 1px solid $primary-color;
+
+      &:first-child {
+        color: $primary-color;
+        background-color: $body-bg;
+      }
+
+      &:last-child {
+        color: $white;
+        background-color: $primary-color;
+      }
+    }
+  }
+}
